@@ -1,0 +1,869 @@
+/* 
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+#c71818 
+*/
+
+html {
+    margin: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    margin: 0;
+
+}
+
+.clearfix:after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+/*  H E A D E R  */
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 1px #c71818  solid;
+    
+}
+
+.logo {
+    padding: 35px 0;
+    flex-basis: 70%;
+    margin-left: 235px;
+}
+
+.logo img{
+    width: 18%;
+    height: auto;
+
+}
+
+.first_header{
+    display: flex;
+    text-align: center;
+   
+}
+
+.aside_nav {
+    padding: 15px;
+}
+
+.second_header {
+   display:inline-block;
+   position: relative;
+   text-align: center;
+   width: 100%;
+   bottom: 15px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.nav a:hover {
+    color: #c71818;
+}
+
+
+
+.footer-link-icon {
+    padding: 11px;
+  }
+
+  .footer-icon {
+      font-size: 1rem;
+      color: #ac030e;
+  }
+
+  .footer-icon:hover {
+      color: #fff;
+  }
+
+  .call {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7rem;
+    padding-top: 7px;
+    letter-spacing: 2px;
+    left: 12px;
+  }
+
+
+  
+
+  /*   M A I N   H E A D I N G  */
+
+main {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/gym_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.main_heading {
+  text-align: center;
+  margin-top: 170px;
+  font-family: "Oxygen", sans-serif;
+  text-transform: uppercase;
+  line-height: 4rem;
+}
+
+.main_heading h1 {
+    font-size: 3.7rem;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.main_heading p {
+    font-size: 1.1rem;
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+.beast {
+    color: #ac030e;
+}
+
+
+/*  S P O R T S   S E C T I O N  */ 
+
+#sports_section {
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.sport img {
+    width: 70%;
+    height: auto;
+}
+
+.sport {
+    padding-bottom: 110px;
+}
+
+.sport p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ac030e;
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+
+.sport a {
+    text-decoration: none;
+}
+
+.sport  a p:hover {
+    color: black;
+}
+
+
+/*  M E M B E R S   S E C T I O N  */
+
+#our_members {
+    
+    width: 100%;
+    text-align: center;
+    background-color: #ac030e;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#our_members h2 {
+    font-size: 2.5rem;
+    font-family: 'Oxygen', sans-serif;
+    padding: 50px 0 80px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+
+.member_box_1, .member_box_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;   
+}
+
+.member {
+    width: 250px;
+    margin-right: 20px;
+}
+
+
+.member_box_1 img {
+    width: 70%;
+    height: auto;
+}
+
+
+.member_box_1 p {
+    width: 40%;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.member_name {
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.member_box_2 {
+    padding: 100px 0 50px;
+}
+
+.member_box_2 img {
+    width: 80%;
+    height: auto;  
+}
+
+.member_box_2 p {
+    width: 40%;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.member_2 {
+    width: 250px;
+    margin-left: 20px;
+}
+
+/*  P L A N S   S E C T I O N  */
+
+#plans {
+    background-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#plans h2 {
+    text-align: center;
+    padding: 50px 0 50px;
+    font-size: 2rem;
+    color: #ac030e;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.pricing {
+    display:grid;
+    grid-auto-flow: column;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    column-gap: 50px;
+
+}
+
+.pricing_box {
+    color: #fff;
+    background-color: #ac030e;
+    margin-bottom: 80px;
+}
+
+.pricing_box h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ac030e;
+    color: #ac030e;
+}
+
+.pricing_box p {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 30px 0 40px;
+}
+
+.price {
+    font-size: 3.2rem;
+}
+
+.pricing_box ul {
+    line-height: 2rem;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+}
+
+
+.black {
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.black h3 {
+    border: 1px solid black;
+    color: black;
+}
+
+button {
+    margin: auto;
+    display: grid;
+    text-align: center;
+    background-color: #fff;
+    color: #ac030e;
+    border-style: none;
+    font-size: 1.2rem;
+    padding: 10px 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/*  S I G N  I N   S E C T I O N  */
+
+
+#sign_in {
+    background-image: url(images/sign_in_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    font-family: 'Oxygen', sans-serif;
+    padding: 2% 0;
+}
+
+
+.sign_in_box {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    background: black;
+    opacity: 0.8;
+    color: #fff;
+    margin: 0 auto;
+     
+    
+}
+.sign_in_box h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px 0 5px;
+}
+
+.sign_in_box p {
+    padding: 20px 0 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.sign_in_box input {
+    width: 30rem;
+    height: 2.7rem;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.submit {
+    margin: 25px 0 40px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #c71818;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.submit:hover {
+    cursor: pointer;
+    border: 5px solid black;
+
+}
+
+.sign_in_box a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+
+/*  F O O T E R  */
+
+footer{
+    background-color: black;
+    border-top: #c71818 solid 2px;
+    font-family: 'Oxygen', sans-serif;
+    color: #fff;
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    padding: 50px 0;
+    
+}
+
+.footer_flex img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.info {
+    flex-basis: 30%;
+    
+}
+
+.info p {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+
+.footer-icon_1 {
+    font-size: 1.3rem;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.footer-icon_1:hover {
+    color: #c71818;
+}
+
+
+
+
+.location {
+    flex-basis: 30%;
+}
+
+.location p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.reserved {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+
+/*  M E D I A   Q U E R I E S  */
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        position: relative;
+    }
+
+    .logo {
+        padding: 22px 0;
+        flex-basis: 70%;
+        margin-left: 150px;
+    }
+
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-link-icon {
+        padding: 2px;
+    }
+
+    .footer-icon {
+        font-size: 1.2rem;
+  }
+
+  .call {
+      position: inherit;
+  }
+
+  .second_header {
+      line-height: 1.6rem;
+  }
+
+  .nav ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .nav a {
+      font-size: 0.9rem;
+      padding: 5px 16px;
+  }
+
+  
+  .main_heading {
+      margin-top: 90px;
+  }
+
+  .main_heading p {
+      font-size: 1rem;
+      line-height: 2rem;
+      margin-top: 60px;
+  }
+
+  #sports_section {
+    padding-top: 100px;
+}
+
+  .sport img {
+    width: 100%;
+}
+
+  .sport p {
+      font-size: 2rem;
+      padding-top: 5px;
+  }
+
+  .member, .member_2 {
+    width: 300px;
+    margin: auto;
+    }
+
+    .member_box_1 p{
+        width: 80%;
+        margin: 0 auto;
+        font-weight: 700;
+    }
+
+    .member_box_2 p{
+        width: 80%;
+        margin: 0 auto;
+        font-weight: 700;
+        text-align: left;
+    }
+    .member_2 img {
+        padding-top: 20px;
+    }
+
+    .pricing {
+        grid-auto-flow: row;
+        grid-template-columns: auto;
+    }
+
+    .sign_in_box {
+        width: 65%;
+    }
+
+    .sign_in_box p {
+        font-size: 1rem;
+
+    }
+
+    .sign_in_box input {
+        width: 17rem;
+        height: 2rem;
+    }
+
+    .footer_flex img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        font-size: 1rem;
+        color: #c71818;
+    }
+
+    iframe {
+        width: 180px;
+        height: auto;
+    }
+
+    .footer-icon_1 {
+        padding: 10px 5px 0;
+    }
+
+    .reserved {
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        padding: 25px 0 5px;
+        flex-basis: 70%;
+        margin-left: 200px;
+    }
+
+    .logo img{
+        width: 40%;
+        height: auto;
+    }
+
+    .footer-link-icon {
+        padding: 7px;
+    }
+
+  .call {
+      position: inherit;
+      font-size: 0.8rem;
+  }
+
+  .second_header {
+      bottom: 0;
+  }
+
+
+  .nav ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .nav a {
+      font-size: 1rem;
+      padding: 7px 14px;
+  }
+
+  
+  .main_heading {
+      margin-top: 120px;
+  }
+
+  .main_heading h1 {
+      font-size: 3.5rem;
+  }
+
+  .main_heading p {
+      font-size: 1rem;
+      line-height: 2rem;
+      margin-top: 60px;
+  }
+
+  #sports_section {
+    padding-top: 100px;
+}
+
+  .sport img {
+    width: 100%;
+}
+
+  .sport p {
+      font-size: 2.5rem;
+      padding-top: 5px;
+  }
+
+  .member, .member_2 {
+    width: 300px;
+    margin: auto;
+    }
+
+    .member_box_1 p{
+        width: 80%;
+        margin: 0 auto;
+        font-weight: 700;
+    }
+
+    .member_box_2 p{
+        width: 80%;
+        margin: 0 auto;
+        font-weight: 700;
+        text-align: left;
+    }
+    .member_2 img {
+        padding-top: 20px;
+    }
+
+    .pricing {
+        grid-auto-flow: row;
+        grid-template-columns: auto;
+    }
+
+    .sign_in_box {
+        width: 75%;
+    }
+
+    .sign_in_box p {
+        font-size: 1rem;
+
+    }
+
+    .sign_in_box input {
+        width: 28rem;
+        height: 3rem;
+    }
+
+    .footer_flex img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        font-size: 1rem;
+        color: #c71818;
+    }
+
+    iframe {
+        width: 230px;
+        height: auto;
+    }
+
+    .footer-icon_1 {
+        padding: 10px 5px 0;
+    }
+
+    .reserved {
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .logo {
+        padding: 25px 0 5px;
+        flex-basis: 70%;
+        margin-left: 220px;
+    }
+
+    .logo img{
+        width: 25%;
+        height: auto;
+    }
+
+    .footer-link-icon {
+        padding: 9px;
+    }
+
+  .call {
+      position: inherit;
+      font-size: 0.7rem;
+  }
+
+  .second_header {
+      padding-top: 20px;
+  }
+  
+  #sports_section {
+    padding-top: 100px;
+}
+
+  .sport img {
+    width: 80%;
+}
+
+  .sport p {
+      font-size: 2.5rem;
+      padding-top: 5px;
+  }
+
+  
+    .pricing {
+        width: 80%;
+    }
+
+    button {
+        padding: 10px 60px;
+    }
+
+    .sign_in_box {
+        width: 75%;
+    }
+
+    .sign_in_box p {
+        font-size: 1rem;
+
+    }
+
+    .sign_in_box input {
+        width: 38rem;
+        height: 3rem;
+    }
+
+    .footer_flex img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        font-size: 1rem;
+        color: #c71818;
+    }
+
+    iframe {
+        width: 300px;
+        height: auto;
+    }
+
+    .footer-icon_1 {
+        padding: 10px 5px 0;
+    }
+
+    .reserved {
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+}
