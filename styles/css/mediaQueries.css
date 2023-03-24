@@ -45,18 +45,57 @@
 }
 
 @media screen and (max-width: 650px) {
+	header {
+		flex-direction: column;
+	}
+
 	.header-container {
+		margin-right: 0;
+	}
+
+	.first_header,
+	.second_header {
 		display: none;
 	}
 
-	.menu-container {
-		padding: 25px 60px 0 0;
+	.navbar-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.second_header {
+		margin: auto;
+	}
+
+	.second_header.active {
+		display: flex;
+	}
+	.nav ul {
+		flex-direction: column;
+		align-items: center;
+		padding-left: 0px;
+	}
+
+	.nav ul li {
+		padding-bottom: 15px;
+	}
+
+	.nav ul a {
+		font-size: 1.5rem;
+		text-transform: uppercase;
 	}
 
 	#menu {
 		display: flex;
 		color: white;
 		font-size: 2.4rem;
+		position: absolute;
+		right: 2.5rem;
+		top: 1.8rem;
+		cursor: pointer;
+	}
+
+	.logo {
+		margin: 0;
 	}
 	.logo img {
 		width: 80px;
