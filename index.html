@@ -18,6 +18,11 @@
 			src="https://kit.fontawesome.com/c213ad021c.js"
 			crossorigin="anonymous"
 		></script>
+		<link
+			href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
 		<title>Beast Gym</title>
 	</head>
 
@@ -28,9 +33,6 @@
 				<a href="#">
 					<img src="assets/images/logo.png" alt="beast_logo" />
 				</a>
-			</div>
-			<div class="menu-container">
-				<i id="menu" class="fa-regular fas fa-bars"></i>
 			</div>
 			<div class="header-container">
 				<div class="first_header">
@@ -51,24 +53,25 @@
 					</div>
 				</div>
 
+				<i id="menu" class="fa-regular fas fa-bars"></i>
 				<div class="second_header">
 					<div class="navbar-container">
 						<nav class="nav">
 							<ul>
 								<li>
-									<a href="">Home</a>
+									<a href="#">Home</a>
 								</li>
 								<li>
-									<a href="">Bodybuilding</a>
+									<a href="#sports_section">Bodybuilding</a>
 								</li>
 								<li>
-									<a href="">Crossfit</a>
+									<a href="#sports_section">Crossfit</a>
 								</li>
 								<li>
-									<a href="">Group Workouts</a>
+									<a href="#sports_section">Group Workouts</a>
 								</li>
 								<li>
-									<a href="">About Us</a>
+									<a href="#sign_in">Sign In</a>
 								</li>
 							</ul>
 						</nav>
@@ -190,18 +193,16 @@
 				<img src="assets/images/logo.png" alt="logo" />
 			</div>
 			<div class="sign_in_box">
-				<form>
+				<form novalidate method="post">
 					<h2>Sign In</h2>
 					<label>Email</label>
-					<input type="email" name="email" />
+					<input type="email" name="email" class="email" />
+					<small class="email-error"></small>
 					<label>Password</label>
-					<input type="password" name="password" /><br />
-					<input
-						class="submit"
-						type="submit"
-						name="Submit"
-						value="Submit"
-					/><br />
+					<input type="password" name="password" class="password" />
+					<small class="password-error"></small>
+					<input class="submit" type="submit" name="Submit" value="Submit" />
+					<br />
 					<a href="#">Forgot Your Password?</a>
 					<a href="#">Don't Have an Account?</a>
 				</form>
@@ -229,5 +230,6 @@
 			</div>
 			<p class="reserved">All Rights Reserved © BeastGym 2023</p>
 		</footer>
+		<script src="scripts/script.js"></script>
 	</body>
 </html>
