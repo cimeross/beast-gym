@@ -1,0 +1,288 @@
+/*  M E D I A   Q U E R I E S  */
+
+@media screen and (max-width: 1050px) {
+	.nav a {
+		padding: 0 15px;
+	}
+
+	.main_heading {
+		line-height: 3rem;
+	}
+
+	.main_heading h1 {
+		font-size: 3rem;
+	}
+
+	.main_heading p {
+		font-size: 0.9rem;
+	}
+
+	.sport {
+		padding-bottom: 50px;
+		width: 45%;
+	}
+
+	.sport img {
+		width: 390px;
+	}
+
+	.sport p {
+		font-size: 1.5rem;
+	}
+
+	#plans h2 {
+		font-size: 2rem;
+	}
+
+	.pricing {
+		column-gap: 25px;
+		width: 90%;
+	}
+
+	.logo-form img {
+		width: 380px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	header {
+		flex-direction: column;
+	}
+
+	.header-container {
+		margin-right: 0;
+	}
+
+	.first_header,
+	.second_header {
+		display: none;
+	}
+
+	.navbar-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.second_header {
+		margin: auto;
+	}
+
+	.second_header.active {
+		display: flex;
+	}
+	.nav ul {
+		flex-direction: column;
+		align-items: center;
+		padding-left: 0px;
+	}
+
+	.nav ul li {
+		padding-bottom: 15px;
+	}
+
+	.nav ul a {
+		font-size: 1.5rem;
+		text-transform: uppercase;
+	}
+
+	#menu {
+		display: flex;
+		color: white;
+		font-size: 2.4rem;
+		position: absolute;
+		right: 2.5rem;
+		top: 1.8rem;
+		cursor: pointer;
+	}
+
+	.logo {
+		margin: 0;
+	}
+	.logo img {
+		width: 80px;
+		height: auto;
+	}
+
+	main {
+		height: 460px;
+	}
+
+	.main_heading {
+		line-height: 2rem;
+	}
+
+	.main_heading h1 {
+		font-size: 1.7rem;
+	}
+
+	.main_heading p {
+		word-spacing: 0;
+		font-size: 0.7rem;
+		letter-spacing: 1px;
+	}
+
+	#sports_section {
+		width: 90%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sport {
+		width: auto;
+	}
+
+	.member_box_1,
+	.member_box_2 {
+		flex-direction: column;
+	}
+
+	.member,
+	.member_2 {
+		width: 270px;
+		margin: auto;
+	}
+
+	.member_box_1 p,
+	.member_box_2 p {
+		font-size: 0.7rem;
+		line-height: 1rem;
+		width: 70%;
+		margin: auto;
+		letter-spacing: 0.7px;
+	}
+
+	.pricing {
+		grid-auto-flow: row;
+		grid-template-columns: repeat(1, 1fr);
+		width: 55%;
+	}
+
+	.logo-form img {
+		display: none;
+	}
+	.sign_in_box {
+		width: 85%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 928px) {
+	.logo img {
+		width: 120px;
+	}
+
+	.nav a {
+		font-size: 1rem;
+	}
+
+	.logo-form img {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 821px) {
+	.first_header {
+		padding-top: 5px;
+	}
+
+	.aside_nav {
+		padding: 10px 15px 5px 0;
+	}
+
+	.footer-link-icon {
+		padding: 5px;
+	}
+
+	.footer-icon {
+		font-size: 1rem;
+	}
+
+	.call {
+		font-size: 0.6rem;
+		text-align: center;
+	}
+
+	.logo img {
+		width: 100px;
+	}
+
+	main {
+		height: 600px;
+	}
+
+	.main_heading h1 {
+		font-size: 2.5rem;
+	}
+	.main_heading p {
+		font-size: 0.7rem;
+	}
+
+	.pricing {
+		width: 95%;
+		column-gap: 20px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.nav a {
+		padding: 0 10px;
+	}
+
+	.main_heading p {
+		font-size: 0.6rem;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.nav a {
+		padding: 0 7px;
+		font-size: 0.8rem;
+	}
+
+	main {
+		height: 500px;
+	}
+
+	.main_heading h1 {
+		font-size: 2rem;
+	}
+
+	.pricing_box p {
+		font-size: 1.5rem;
+	}
+
+	.price {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	button {
+		padding: 10px 30px;
+	}
+
+	.logo-form img {
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.logo {
+		margin-left: 10px;
+	}
+
+	.logo img {
+		width: 75px;
+	}
+
+	.menu-container {
+		padding: 25px 30px 0;
+	}
+
+	main {
+		height: 500px;
+		bottom: 50px;
+	}
+	.sport {
+		width: 100%;
+	}
+}
